@@ -1,0 +1,3 @@
+# Project exclude paths
+/elasticsearch/target/
+/postgresql/target/
