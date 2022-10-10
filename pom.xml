@@ -11,6 +11,8 @@
     <modules>
         <module>elasticsearch</module>
         <module>postgresql</module>
+        <module>agent</module>
+        <module>agent-run</module>
     </modules>
 
     <properties>
