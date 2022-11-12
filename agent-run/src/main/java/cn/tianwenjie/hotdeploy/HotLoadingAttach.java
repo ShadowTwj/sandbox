@@ -1,0 +1,15 @@
+package cn.tianwenjie.hotdeploy;
+
+import cn.tianwenjie.AttachUtil;
+
+/**
+ * @author tianwj
+ * @date 2022/10/11 14:11
+ */
+public class HotLoadingAttach {
+    private static final String AGENT_PATH = "/Users/tianwj/workspace/other/sandbox/agent/target/agent-jar-with-dependencies.jar";
+
+    public static void main(String[] args) throws Exception {
+        AttachUtil.attach(AGENT_PATH, "HotLoadingRun");
+    }
+}

@@ -48,9 +48,9 @@
                         </manifest>
                         <manifestEntries>
                             <Built-By>neo</Built-By>
-                            <Premain-Class>cn.tianwenjie.watch.WatchDemo</Premain-Class>
-                            <Agent-Class>cn.tianwenjie.watch.WatchDemo</Agent-Class>
-                            <Main-Class>cn.tianwenjie.watch.WatchDemo</Main-Class>
+                            <Premain-Class>cn.tianwenjie.hotdeploy.HotLoadingDemo</Premain-Class>
+                            <Agent-Class>cn.tianwenjie.hotdeploy.HotLoadingDemo</Agent-Class>
+                            <Main-Class>cn.tianwenjie.hotdeploy.HotLoadingDemo</Main-Class>
                             <Can-Redefine-Classes>true</Can-Redefine-Classes>
                             <Can-Retransform-Classes>true</Can-Retransform-Classes>
                             <Can-Set-Native-Method-Prefix>true</Can-Set-Native-Method-Prefix>
