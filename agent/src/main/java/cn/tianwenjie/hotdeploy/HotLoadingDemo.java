@@ -32,6 +32,7 @@ public class HotLoadingDemo {
 
         for (Class<?> loadedClass : allLoadedClasses) {
             if (SOURCE_CLASS_PATH.equals(loadedClass.getName())) {
+                // 自定义编译器，将替换的代码编译成字节码
                 DynamicCompiler dynamicCompiler = new DynamicCompiler();
                 byte[] byteCode = dynamicCompiler.compiler(TARGET_FILE_PATH);
 
